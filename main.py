@@ -9,7 +9,7 @@ from functions import *
 
 intents = discord.Intents().all()
 intents.message_content = True
-Bot = commands.Bot(command_prefix='YOUR_BOT'S_PREFIX', intents=intents)
+Bot = commands.Bot(command_prefix='YOUR_BOTS_PREFIX', intents=intents)
 
 #READY
 @Bot.event
