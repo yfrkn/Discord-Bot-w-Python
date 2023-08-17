@@ -4,8 +4,6 @@
 
 import discord
 from discord.ext import commands
-from ayarlar import *
-from functions import *
 
 intents = discord.Intents().all()
 intents.message_content = True
